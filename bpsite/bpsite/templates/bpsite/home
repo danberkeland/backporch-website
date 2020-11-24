@@ -1,1 +1,1 @@
-{% extends 'main/base.html' %}
+{% extends 'bpsite/base.html' %}

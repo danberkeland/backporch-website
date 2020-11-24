@@ -1,6 +1,8 @@
 {% extends 'bpsite/base.html' %}
 {% block content %}
+
 <h1>Menu</h1>
+
 <ul>
 {% for item in object_list %}
 	{% if object_list %}
@@ -11,5 +13,5 @@
 	{% endif %}
 {% endfor %}
 </ul>
-end of list
+
 {% endblock %}
