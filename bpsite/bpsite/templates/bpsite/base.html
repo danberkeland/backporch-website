@@ -1,10 +1,15 @@
 <html>
 <head>
 
-	<title>Backporch Bakery</title>
+	<title>{% block title %}Backporch Bakery {% endblock %}</title>
 </head>
 
 <body>
+	<div id="content", name="content">
+		{% block content %}
+		{% endblock %}
+	</div>
+
 	<p>Base template which will have banner picture and nav bar</p>
 </body>
 </html>
