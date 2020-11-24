@@ -1,0 +1,15 @@
+{% extends 'bpsite/base.html' %}
+{% block content %}
+<h1>Menu</h1>
+<ul>
+{% for item in object_list %}
+	{% if object_list %}
+	<li><a href="{{ item.item_name }}">{{ item.item_name }}</a></li>
+	
+	{% else %}
+	<h1>menu empty</h1>
+	{% endif %}
+{% endfor %}
+</ul>
+end of list
+{% endblock %}

@@ -22,4 +22,5 @@ urlpatterns = [
     path('orders/', include('orders.urls')),
     path('home/', views.home, name="home"),
     path('about/', views.about, name="about"),
+    path('menu/', views.MenuView.as_view(), name="menu"),
 ]
