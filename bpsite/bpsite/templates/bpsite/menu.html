@@ -6,8 +6,8 @@
 <ul>
 {% for item in object_list %}
 	{% if object_list %}
-	<li><a href="{{ item.item_name }}">{{ item.item_name }}</a></li>
-	
+	<li><a href="{{ item.item_name }}">{{ item.item_name }}</a> quantity: {{ item.quantity }}</li>
+	<li>{{ item.item_name }}</li>
 	{% else %}
 	<h1>menu empty</h1>
 	{% endif %}
