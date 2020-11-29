@@ -1,0 +1,1330 @@
+[24-Jan-2020 11:46:01 America/Chicago] PHP Warning:  require(/home1/themdog1/waloanmaker.com/email/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home1/themdog1/waloanmaker.com/email/vendor/composer/autoload_real.php on line 66
+[24-Jan-2020 11:46:01 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home1/themdog1/waloanmaker.com/email/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/php54/lib/php') in /home1/themdog1/waloanmaker.com/email/vendor/composer/autoload_real.php on line 66
+[24-Jan-2020 11:55:17 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home1/themdog1/waloanmaker.com/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 24
+[24-Jan-2020 11:55:25 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home1/themdog1/waloanmaker.com/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 24
+[24-Jan-2020 11:55:43 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home1/themdog1/waloanmaker.com/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 23
+[24-Jan-2020 11:56:25 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home1/themdog1/waloanmaker.com/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 23
+[24-Jan-2020 17:57:32 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20180731
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 17:57:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.5.4.lin' (tried: /opt/php54/lib/php/extensions/no-debug-non-zts-20100525/ixed.5.4.lin (/opt/php54/lib/php/extensions/no-debug-non-zts-20100525/ixed.5.4.lin: undefined symbol: _zval_ptr_dtor), /opt/php54/lib/php/extensions/no-debug-non-zts-20100525/ixed.5.4.lin.so (/opt/php54/lib/php/extensions/no-debug-non-zts-20100525/ixed.5.4.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[24-Jan-2020 11:57:32 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Swift_Transport_EsmtpTransport' not found in /home1/themdog1/waloanmaker.com/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php:23
+Stack trace:
+#0 /home1/themdog1/waloanmaker.com/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift.php(54): require()
+#1 [internal function]: Swift::autoload('Swift_SmtpTrans...')
+#2 /home1/themdog1/waloanmaker.com/email/mailer.php(13): spl_autoload_call('Swift_SmtpTrans...')
+#3 /home1/themdog1/waloanmaker.com/email/purchase-email.php(30): sendEmail('<div style="wid...', 'Quote  - http:/...', 'cubecitytest@gm...')
+#4 {main}
+  thrown in /home1/themdog1/waloanmaker.com/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 23
+[24-Jan-2020 17:59:23 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 17:59:23 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:00:05 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:00:05 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:03:59 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:03:59 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:05:00 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:05:00 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:07:12 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:07:12 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:07:40 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:07:40 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:09:26 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:09:26 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:09:30 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:09:30 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:11:08 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:11:08 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:14:13 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 18:14:13 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 22:31:21 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 22:31:21 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 22:31:22 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[24-Jan-2020 22:31:22 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[25-Jan-2020 22:34:49 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[25-Jan-2020 22:34:49 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[25-Jan-2020 22:34:51 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[25-Jan-2020 22:34:51 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[26-Jan-2020 22:34:41 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[26-Jan-2020 22:34:41 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[26-Jan-2020 22:34:42 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[26-Jan-2020 22:34:42 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[27-Jan-2020 22:34:23 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[27-Jan-2020 22:34:23 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[27-Jan-2020 22:34:26 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[27-Jan-2020 22:34:26 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[27-Jan-2020 22:34:29 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[27-Jan-2020 22:34:29 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[27-Jan-2020 22:34:29 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[27-Jan-2020 22:34:29 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[28-Jan-2020 22:36:55 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[28-Jan-2020 22:36:55 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[28-Jan-2020 22:36:58 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[28-Jan-2020 22:36:58 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[28-Jan-2020 22:37:00 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[28-Jan-2020 22:37:00 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[28-Jan-2020 22:37:01 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[28-Jan-2020 22:37:01 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 07:08:04 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 07:08:04 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 07:28:09 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 07:28:09 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 18:00:32 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 18:00:32 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 18:02:10 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 18:02:10 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 22:18:20 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 22:18:21 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 22:46:28 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 22:46:28 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 22:46:29 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 22:46:29 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 22:46:30 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 22:46:30 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 22:46:31 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[29-Jan-2020 22:46:31 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 04:01:48 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 04:01:48 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 04:05:50 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 04:05:50 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 04:07:37 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 04:07:37 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 04:09:18 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 04:09:18 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 05:10:02 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 05:10:02 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 05:43:14 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 05:43:14 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 18:46:16 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 18:46:16 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 22:37:58 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 22:37:58 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 22:38:00 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 22:38:00 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 22:38:01 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 22:38:01 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 22:38:01 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[30-Jan-2020 22:38:01 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[31-Jan-2020 17:57:44 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[31-Jan-2020 17:57:44 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[31-Jan-2020 22:41:25 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[31-Jan-2020 22:41:25 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[31-Jan-2020 22:41:27 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[31-Jan-2020 22:41:27 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[31-Jan-2020 22:41:29 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[31-Jan-2020 22:41:29 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[31-Jan-2020 22:41:30 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[31-Jan-2020 22:41:30 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[01-Feb-2020 22:36:15 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[01-Feb-2020 22:36:15 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[01-Feb-2020 22:36:16 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[01-Feb-2020 22:36:16 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[01-Feb-2020 22:36:17 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[01-Feb-2020 22:36:17 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[01-Feb-2020 22:36:18 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[01-Feb-2020 22:36:18 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[02-Feb-2020 22:34:54 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[02-Feb-2020 22:34:54 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[02-Feb-2020 22:34:56 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[02-Feb-2020 22:34:56 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[02-Feb-2020 22:34:57 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[02-Feb-2020 22:34:57 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[02-Feb-2020 22:34:57 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[02-Feb-2020 22:34:57 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[03-Feb-2020 22:41:12 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[03-Feb-2020 22:41:12 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[03-Feb-2020 22:41:16 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[03-Feb-2020 22:41:16 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[03-Feb-2020 22:41:16 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[03-Feb-2020 22:41:16 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[03-Feb-2020 22:41:17 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[03-Feb-2020 22:41:17 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[04-Feb-2020 22:31:24 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[04-Feb-2020 22:31:24 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[04-Feb-2020 22:31:26 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[04-Feb-2020 22:31:26 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[04-Feb-2020 22:31:29 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[04-Feb-2020 22:31:29 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[04-Feb-2020 22:31:30 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[04-Feb-2020 22:31:30 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[04-Feb-2020 23:49:31 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[04-Feb-2020 23:49:31 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[05-Feb-2020 22:34:23 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[05-Feb-2020 22:34:23 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[05-Feb-2020 22:34:23 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[05-Feb-2020 22:34:23 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[05-Feb-2020 22:34:25 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[05-Feb-2020 22:34:25 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[05-Feb-2020 22:34:26 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[05-Feb-2020 22:34:26 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[06-Feb-2020 22:38:49 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[06-Feb-2020 22:38:49 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[06-Feb-2020 22:38:50 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[06-Feb-2020 22:38:50 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[06-Feb-2020 22:38:51 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[06-Feb-2020 22:38:51 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[06-Feb-2020 22:38:51 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[06-Feb-2020 22:38:51 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[07-Feb-2020 20:39:14 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[07-Feb-2020 20:39:14 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[07-Feb-2020 22:33:01 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[07-Feb-2020 22:33:01 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[07-Feb-2020 22:33:02 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[07-Feb-2020 22:33:02 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[07-Feb-2020 22:33:03 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[07-Feb-2020 22:33:03 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[07-Feb-2020 22:33:04 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[07-Feb-2020 22:33:04 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[08-Feb-2020 22:36:22 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[08-Feb-2020 22:36:22 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[08-Feb-2020 22:36:23 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[08-Feb-2020 22:36:23 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[08-Feb-2020 22:36:25 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[08-Feb-2020 22:36:25 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[08-Feb-2020 22:36:27 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[08-Feb-2020 22:36:27 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[09-Feb-2020 20:20:12 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[09-Feb-2020 20:20:12 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[09-Feb-2020 22:36:33 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[09-Feb-2020 22:36:33 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[09-Feb-2020 22:36:36 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[09-Feb-2020 22:36:36 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[09-Feb-2020 22:36:37 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[09-Feb-2020 22:36:37 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[09-Feb-2020 22:36:38 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[09-Feb-2020 22:36:38 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[10-Feb-2020 22:43:27 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[10-Feb-2020 22:43:27 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[10-Feb-2020 22:43:30 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[10-Feb-2020 22:43:30 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[10-Feb-2020 22:43:31 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[10-Feb-2020 22:43:31 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[10-Feb-2020 22:43:31 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[10-Feb-2020 22:43:31 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[11-Feb-2020 22:43:47 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[11-Feb-2020 22:43:47 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[11-Feb-2020 22:43:48 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[11-Feb-2020 22:43:48 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[11-Feb-2020 22:43:49 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[11-Feb-2020 22:43:49 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[11-Feb-2020 22:43:49 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[11-Feb-2020 22:43:49 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 06:38:49 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 06:38:49 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 06:41:49 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 06:41:49 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 19:30:09 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 19:30:09 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 19:31:40 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 19:31:40 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 21:52:32 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 21:52:32 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 22:42:33 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 22:42:33 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 22:42:34 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 22:42:34 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 22:42:36 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 22:42:36 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 22:42:36 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[12-Feb-2020 22:42:36 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 01:57:56 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 01:57:56 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 07:30:19 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 07:30:19 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 10:25:50 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 10:25:50 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 20:14:35 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 20:14:35 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 22:31:29 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 22:31:29 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 22:31:31 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 22:31:31 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 22:31:32 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 22:31:32 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 22:31:33 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[13-Feb-2020 22:31:33 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[14-Feb-2020 22:44:31 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[14-Feb-2020 22:44:31 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[14-Feb-2020 22:44:31 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[14-Feb-2020 22:44:31 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[14-Feb-2020 22:44:35 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[14-Feb-2020 22:44:35 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[14-Feb-2020 22:44:35 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[14-Feb-2020 22:44:35 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[15-Feb-2020 22:41:10 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[15-Feb-2020 22:41:10 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[15-Feb-2020 22:41:13 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[15-Feb-2020 22:41:13 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[15-Feb-2020 22:41:16 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[15-Feb-2020 22:41:16 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[15-Feb-2020 22:41:16 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[15-Feb-2020 22:41:16 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[16-Feb-2020 22:34:40 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[16-Feb-2020 22:34:40 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[16-Feb-2020 22:34:41 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[16-Feb-2020 22:34:41 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[16-Feb-2020 22:34:43 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[16-Feb-2020 22:34:43 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[16-Feb-2020 22:34:44 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[16-Feb-2020 22:34:44 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[17-Feb-2020 20:39:41 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[17-Feb-2020 20:39:41 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[17-Feb-2020 20:41:09 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[17-Feb-2020 20:41:09 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[17-Feb-2020 22:40:53 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[17-Feb-2020 22:40:53 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[17-Feb-2020 22:40:53 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[17-Feb-2020 22:40:53 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[17-Feb-2020 22:40:56 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[17-Feb-2020 22:40:56 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[17-Feb-2020 22:40:57 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[17-Feb-2020 22:40:57 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0

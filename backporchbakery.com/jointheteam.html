@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+     <title>Welcome to the Back Porch Bakery</title>
+     <!-- 
+
+Eatery Cafe Template 
+
+http://www.templatemo.com/tm-515-eatery
+
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/animate.css">
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="css/magnific-popup.css">
+     <link rel="stylesheet" href="css/custom.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/templatemo-style.css">
+
+</head>
+
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <div id="logoskull">
+                         <a href="#"><img id="skull" src="images/logo.jpg"></a>
+                    </div>
+               </div>
+
+               <!-- MENU LINKS -->
+
+          </div>
+     </section>
+
+
+     <!-- HOME -->
+     <section id="home" class="slider" data-stellar-background-ratio="0.5">
+          <div class="row">
+
+               <div class="owl-carousel owl-theme">
+                    <div class="item item-team1">
+                         <div class="caption">
+                              <div class="container">
+                                   <div class="col-md-8 col-sm-12">
+                                        <h3>Back Porch Bakery</h3>
+                                        <h1>Join our crew! Currently seeking cooks and morning bakers.</h1>
+                                        <a href="#" class="apply-now-btn section-btn btn btn-default smoothScroll">APPLY
+                                             NOW</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="item item-team2">
+                         <div class="caption">
+                              <div class="container">
+                                   <div class="col-md-8 col-sm-12">
+                                        <h3>Our Positions</h3>
+                                        <h1>We hire bakers, cooks, drivers, cashiers, and baristas.</h1>
+                                        <a href="#" class="apply-now-btn section-btn btn btn-default smoothScroll">APPLY
+                                             NOW</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="item item-team3">
+                         <div class="caption">
+                              <div class="container">
+                                   <div class="col-md-8 col-sm-12">
+                                        <h3>Our Locations</h3>
+                                        <h1>We have locations in San Luis Obispo, CA and Atascadero, CA</h1>
+                                        <a href="#" class="apply-now-btn section-btn btn btn-default smoothScroll">APPLY
+                                             NOW</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+          </div>
+     </section>
+
+
+     <section id="stepApply" class="white-popup mfp-hide">
+          <div class="container apply-container">
+               <div class="row">
+                    <div class="col-md-8 col-sm-12 col-centered">
+                         <div id="OrderModel" class="modalInner-apply-now">
+                              <div class="createOrderModal-apply">
+                                   <div class="grow1-444">
+                                        <p class="black-85 center-388 mb7-648 modalTitle-636" id="applyHeader">Tell us about yourself!</p>
+                                        <p id="errors" style="display: none;">
+
+                                        </p>
+                                     
+                                             <form id="frmApply" class="form-horizontal" action="process-applyNow.php" method="post">
+
+                                             <div class="form-group">
+                                                  <label for="firstName" class="control-label col-xs-4 col-sm-4">First
+                                                       Name:</label>
+                                                  <div class="col-xs-12 col-sm-8 col-lg-8 col-xl-8">
+                                                       <input id="firstName" name="firstName" type="text"
+                                                            class="form-control" required>
+                                                  </div>
+                                             </div>
+                                             <div class="form-group">
+                                                  <label for="lastName" class="control-label col-xs-12 col-sm-4">Last
+                                                       Name:</label>
+                                                  <div class="col-xs-12 col-sm-8 col-lg-8 col-xl-8">
+                                                       <input id="lastName" name="lastName" type="text"
+                                                            class="form-control" required>
+                                                  </div>
+                                             </div>
+                                             <div class="form-group">
+                                                  <label for="email" class="control-label col-xs-12 col-sm-4">Email
+                                                       Address:</label>
+                                                  <div class="col-xs-12 col-sm-8 col-lg-8 col-xl-8">
+                                                       <input id="email" name="email" type="email" class="form-control" required>
+                                                  </div>
+                                             </div><br>
+                                             <div class="form-group">
+                                                  <label for="availableToWork"
+                                                       class="control-label col-xs-12 col-sm-12 black-86">Where are
+                                                       you available to work?</label>
+                                                  <div class="col-xs-12 col-lg-12 col-xl-12">
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="checkbox-inline">
+                                                                 <input type="checkbox" name="availableToWork[]"
+                                                                      value="Atascadero">
+                                                                 Atascadero
+                                                            </label>
+                                                       </div>
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="checkbox-inline">
+                                                                 <input type="checkbox" name="availableToWork[]"
+                                                                      value="San Luis Obispo">
+                                                                 San Luis Obispo
+                                                            </label>
+                                                       </div>
+                                                  </div>
+                                             </div><br>
+                                             <div class="form-group">
+                                                  <label for="experience" class="control-label col-xs-12 col-sm-12 black-86">How
+                                                       much
+                                                       experience in the food industry?</label>
+                                                  <div class="col-xs-12 col-lg-12 col-xl-12">
+
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="experience"
+                                                                      value="None">
+                                                                 None, but ready to learn
+                                                            </label>
+                                                       </div>
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="experience"
+                                                                      value="A little bit">
+                                                                 A little bit
+                                                            </label>
+                                                       </div>
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="experience" value="Years">
+                                                                 Years
+                                                            </label>
+                                                       </div>
+                                                  </div>
+                                             </div><br>
+                                             <div class="form-group">
+                                                  <label for="experienceBread"
+                                                       class="control-label col-xs-12 col-sm-12 black-86">How much
+                                                       experience in baking bread?</label>
+                                                  <div class="col-xs-12 col-lg-12 col-xl-12">
+
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="experienceBread"
+                                                                      value="None">
+                                                                 None, but ready to learn
+                                                            </label>
+                                                       </div>
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="experienceBread"
+                                                                      value="A little bit">
+                                                                 A little bit
+                                                            </label>
+                                                       </div>
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="experienceBread"
+                                                                      value="Years">
+                                                                 Years
+                                                            </label>
+                                                       </div>
+
+
+
+
+                                                  </div>
+                                             </div><br>
+
+                                             <!--
+
+                                             <div class="form-group">
+                                                  <label for="3am"
+                                                       class="control-label col-xs-12 col-sm-12 black-86">How do you feel about working at 3 AM?</label>
+                                                  <div class="col-xs-12 col-lg-12 col-xl-12">
+
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="3amwork"
+                                                                      value="yes">
+                                                                 Bring it.  I'll sleep when I'm dead.
+                                                            </label>
+                                                       </div>
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="3amwork"
+                                                                      value="maybe">
+                                                                 Hmm.  I think I can do it.
+                                                            </label>
+                                                       </div>
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="3amwork"
+                                                                      value="no">
+                                                                 Uh ... I'm out
+                                                            </label>
+                                                       </div>
+
+
+
+
+                                                  </div>
+                                             </div><br>
+
+                                             -->
+
+
+
+
+
+
+
+
+                                             <div class="form-group">
+                                                  <label for="seek" class="control-label col-xs-12 col-sm-12 black-86">Seeking ?
+                                                       </label>
+                                                  <div class="col-xs-12 col-lg-12 col-xl-12">
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="checkbox-inline">
+                                                                 <input type="checkbox" name="seek[]" value="part time">
+                                                                 Part time
+                                                            </label>
+                                                       </div>
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="checkbox-inline">
+                                                                 <input type="checkbox" name="seek[]" value="full time">
+                                                                 Full time
+                                                            </label>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="form-group">
+                                                  <label for="radio" class="control-label col-xs-12 col-sm-12 black-86">Current
+                                                       Occupation:
+                                                       </label>
+                                                  <div class="col-xs-12 col-lg-12 col-xl-12">
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="currentOccupation"
+                                                                      value="Not Currently Working">
+                                                                 Not currently working
+                                                            </label>
+                                                       </div>
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="currentOccupation"
+                                                                      value="Employed looking to change">
+                                                                 Employed, but looking for a change
+                                                            </label>
+                                                       </div>
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="currentOccupation"
+                                                                      value="Employed looking to add">
+                                                                 Employed, and looking to add a job
+                                                            </label>
+                                                       </div>
+
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="currentOccupation"
+                                                                      value="First Job">
+                                                                 Just getting started in the working world
+                                                            </label>
+                                                       </div>
+
+                                                       <div class="checkbox orderTypeTab-869 extraPad">
+                                                            <label class="radio-inline">
+                                                                 <input type="radio" name="currentOccupation"
+                                                                      value="Student">
+                                                                 Student
+                                                            </label>
+                                                       </div>
+                                                  </div>
+                                             </div>
+
+                                             <div class="form-group">
+                                             
+                                             <label for="resume" class="control-label col-xs-12 col-sm-12 black-86">Upload Resume (Optional):
+                                                  </label>
+                                                  
+                                                  <div class="col-xs-12 col-lg-12 col-xl-12">
+                                                  <div class="checkbox orderTypeTab-869">
+                                                       <input type="file" class="custom-file-input" id="customFile" name="customFile">
+                                                       <label class="custom-file-label" for="customFile">Choose file</label>
+                                                  </div>
+                                                  </div>
+                                             </div>
+                                             
+                                             
+                                             <!--<div class="checkbox orderTypeTab-869">
+
+                                                   <span class="control-fileupload">
+                                                        <label class="custom-file-label" for="resumeFile">Upload A Resume</label>
+                                                        <input type="file" id="resumeFile" name="resumeFile">
+                                                   </span>
+
+                                              </div>-->
+                                             
+
+
+                                             <div class="modalButtonsContainer-876">
+                                                  <!--<button class="basicText-754 pointer-722 mfp-close" type="button">--> 
+                                                  <!--<div class="basicText-754 pointer-722 mfp-close pop-btn-custom">CANCEL-->
+                                                  <input  class="flex-416 flexColumn-422 btn-primary" type="removeFile" value="Remove File" id="removeFile" />
+                                                  <input  class="flex-416 flexColumn-422 btn-primary mfp-close" type="cancel" value="Cancel" id="applyCancel" />
+                                                  <!--<button type="submit" id="applySubmit">Apply Now</button>-->
+                                                  <input  class="flex-416 flexColumn-422 btn-primary" type="submit" value="Apply Now" id="applySubmit" />
+                                                       
+                                                  
+
+                                             </div>
+
+                                        </form>
+                                   </div>
+
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+
+
+     <!-- ABOUT -->
+     <section id="ourStory" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="about-info">
+
+                              <h4>Our Story</h4>
+                              <h2>Raising the flag since 2011</h2>
+
+
+
+                              <p>Dan and Caroline Berkeland met while working in the kitchen of a guesthouse outside of
+                                   Florence, Italy. They brought their passion for feeding friends, family, and
+                                   neighbors with them upon moving to San Luis Obispo, CA in 2009. In 2011, Dan created
+                                   a Facebook page as a means of communicating with friends and family that bread would
+                                   soon be coming out of the oven and that there would be plenty extra if anyone wanted
+                                   to come over and grab some.</p>
+                              <p>Dan called the Facebook page Back Porch Bakery.
+                              </p>
+
+
+
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+
+                         <img src="images/about1-image.jpg" class="img-responsive" alt="">
+
+                    </div>
+
+               </div>
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+
+                         <img src="images/about2-image.jpg" class="img-responsive" alt="">
+
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                         <div class="about-info">
+
+
+                              <br><br>
+                              <p>It didn't take long for word to spread. Facebook made it easy to attract new friends.
+                                   And as the "likes" grew, more and more strangers appeared on Dan and Caroline's back
+                                   porch looking for bread. So Dan got a flag and started using it as the indicator for
+                                   when the porch was open for "business". Fresh breads and pastries appeared every
+                                   morning. A tin coffee can sat next to them for donations. And the back porch door was
+                                   unlocked and usually wide open for a steady stream of friends, neighbors, and
+                                   strangers to come right in, take what they wanted, and leave what they chose.</p>
+                              <p>Soon local cafe and restaurant owners were showing up at the house asking if it would
+                                   be possible to bake for them.</p>
+
+
+
+                         </div>
+                    </div>
+
+
+
+               </div>
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="about-info">
+
+                              <br><br>
+                              <p>Flash forward to today. The Back Porch Bakery currently provides breads and pastries to
+                                   over 120 local restaurants, cafes, hotels, and markets on the California Central
+                                   Coast. The bakery team has grown to around 20 members including bakers, drivers,
+                                   baristas, and office administrators. The bakery has grown up but the spirit of
+                                   community building and of feeding our neighbors has remained the same.</p>
+
+
+
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+
+                         <img src="images/about3-image.jpg" class="img-responsive" alt="">
+
+                    </div>
+
+               </div>
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+
+                         <img src="images/about4-image.jpg" class="img-responsive" alt="">
+
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                         <div class="about-info">
+
+
+                              <br><br>
+                              <p>In 2016, the Back Porch Bakery moved a part of its wholesale operation into the Carlton
+                                   Hotel in Atascadero. The Carlton asked if we might be interested in running the hotel
+                                   cafe and without hesitation we said we'd love to give it a shot. The cafe has given
+                                   us the chance we were looking for to get back in direct contact with all those local
+                                   friends and neighbors who helped build the bakery back when it was still run off of
+                                   Dan and Caroline's back porch years before. Not to mention the ton of guests who have
+                                   come from all over the country and all over the world to have a bite at our place
+                                   while taking in the magic of the California Central Coast.</p>
+
+
+
+                         </div>
+                    </div>
+
+
+
+               </div>
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="about-info">
+
+                              <br><br>
+                              <p>Our cafe will be closed for just a little bit longer, but our curbside pickup is
+                                   available 7 days a week from 7 am to 11 pm. We can't wait to see you!</p>
+
+
+
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+
+                         <img src="images/about5-image.jpg" class="img-responsive" alt="">
+
+                    </div>
+
+               </div>
+
+
+
+          </div>
+
+     </section>
+
+
+     <!-- FOOTER -->
+     <footer id="footer" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-3 col-sm-8">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">San Luis Obispo</h2>
+                              </div>
+                              <address class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>289 Prado Rd.<br>San Luis Obispo, CA<br>93405</p>
+                              </address>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-8">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Atascadero</h2>
+                              </div>
+                              <address class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>6005 El Camino Real<br>Atascadero, CA<br>93422</p>
+                              </address>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-8">
+                         <div class="footer-info footer-open-hour">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Cafe Hours</h2>
+                              </div>
+                              <div class="wow fadeInUp" data-wow-delay="0.4s">
+
+                                   <div>
+                                        <strong>Open Daily</strong>
+                                        <p>7:00 AM - 11:00 AM</p>
+                                   </div>
+
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4">
+                         <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
+                              <li><a href="https://www.facebook.com/backporchbakeryslo" class="fa fa-facebook-square"
+                                        attr="facebook icon"></a></li>
+                              <li><a href="https://www.yelp.com/biz/back-porch-bakery-atascadero"
+                                        class="fa fa-yelp"></a></li>
+                              <li><a href="https://www.instagram.com/backporchbakerycafe/" class="fa fa-instagram"></a>
+                              </li>
+
+                         </ul>
+
+                         <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s">
+                              <p><br>Copyright &copy; 2018 <br>Back Porch Bakery
+
+                                   <br><br>Design: TemplateMo</p>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </footer>
+
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.stellar.min.js"></script>
+     <script src="js/wow.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/jquery.magnific-popup.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+     <script src="js/joinTeamValidation.js"></script>
+     <script src="js/popup.js"></script>
+     <script src="js/joinTeamHandlers.js"></script>
+    
+</body>
+
+</html>
